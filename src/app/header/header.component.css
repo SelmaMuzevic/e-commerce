@@ -1,4 +1,16 @@
-.navbar {
+h1 {
+    color: palevioletred;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    background: lightgray;
+    margin: 0;
+}
+
+.nav-menu {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
