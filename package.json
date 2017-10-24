@@ -4,12 +4,12 @@
     "license": "MIT",
     "scripts": {
         "ng": "ng",
-        "start": "ng serve",
+        "start": "ng serve & npm run json",
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "json": "json-server --watch"
+        "json": "json-server db.json --watch --port 3005"
     },
     "private": true,
     "dependencies": {
