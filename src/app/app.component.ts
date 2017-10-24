@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 
 })
 export class AppComponent {
-  private message:string = 'My first page E-Commerce !';
+ title = 'My first page E-Commerce !';
 }
 
 

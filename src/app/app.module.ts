@@ -6,21 +6,10 @@ import { HttpModule }  from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { MainComponent } from './main/main.component';
-import { InscriptionComponent } from './inscription/inscription.component';
-import { ConnexionComponent } from './connexion/connexion.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    MainComponent,
-    InscriptionComponent,
-    ConnexionComponent
   ],
   imports: [
     BrowserModule,
