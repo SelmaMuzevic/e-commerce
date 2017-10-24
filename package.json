@@ -10,6 +10,7 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "json": "json-server db.json --watch --port 3005"
+
     },
     "private": true,
     "dependencies": {
